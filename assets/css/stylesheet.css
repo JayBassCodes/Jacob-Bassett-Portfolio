@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    flex-direction: column;
+    
+}
+
+header {
+    display: flex
+    width 100%;
+    background-color: #004C54;
+    padding: 20px;
+}
+
+.header {
+    display: flex;
+}
+
+header h1 {
+    display: inline-block;
+    color: #A5ACAF;
+    font-size: 48px;
+}
+
+.nav {
+    display: flex;
+    position: absolute;
+    right: 10px;
+}
+
+.nav ul {
+    list-style: none;
+}
+
+.nav ul li {
+    display: inline;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    padding-left: 30px;
+    font-size: 24px;
+}
+
