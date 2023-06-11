@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    line-height: 2.5;
+}
+
+body {
+    flex-direction: column;
+    
+}
+
+header {
+    display: flex
+    width 100%;
+    background-color: #004C54;
+    padding: 20px;
+}
+
+.header {
+    display: flex;
+}
+
+header h1 {
+    display: inline-block;
+    color: #A5ACAF;
+    font-size: 48px;
+}
+
+.nav {
+    display: flex;
+    position: absolute;
+    right: 10px;
+}
+
+.nav ul {
+    list-style: none;
+}
+
+.nav ul li {
+    display: inline;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    padding-left: 30px;
+    font-size: 24px;
+}
+
+.main {
+    display: flex;
+    background-color: #A5ACAF;
+    text-align: left;
+    padding: 25px;
+}
+
+.main h2 {
+    padding-right: 50px;
+    border-right: black solid;
+    margin-right: 10px;
+}
+
+.work {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card {
+    display: inline-block;
+    text-align: center;
+    font-family: fantasy;
+    font-size: 24px;
+}
+
+.card a:hover {
+    opacity: 25%;
+}
+
+#main-card {
+    display: block;
+    object-fit: cover;
+    height: 500px;
+    width: 760px;
+}
+
+.picture {
+    object-fit: cover;
+    height: 180px;
+    width: 250px;
+}
+
+@media screen {
+    
+}
