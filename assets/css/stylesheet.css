@@ -3,6 +3,7 @@
     padding: 0;
     margin: 0;
     line-height: 2.5;
+    background-color: #A5ACAF;
 }
 
 body {
@@ -19,12 +20,22 @@ header {
 
 .header {
     display: flex;
+    background-color: #004C54;
+    
 }
 
 header h1 {
     display: inline-block;
     color: #A5ACAF;
     font-size: 48px;
+    background-color: #004C54;
+    
+}
+
+#avatar {
+    max-width: 200px;
+    float: right;
+    margin-left: 70px;
 }
 
 .nav {
@@ -81,7 +92,7 @@ header h1 {
 
 #main-card {
     display: block;
-    object-fit: cover;
+    object-fit: contain;
     height: 500px;
     width: 760px;
 }
@@ -92,6 +103,41 @@ header h1 {
     width: 250px;
 }
 
-@media screen {
-    
+.footer {
+    display: flex;
+    background-color: #004C54;
+}
+
+.footer h3 {
+    display: inline-block;
+    background-color: #004C54;
+    padding: 10px;
+}
+
+.footer div {
+    background-color: #004C54;
+}
+
+.list {
+    position: absolute;
+    right: 0px;
+}
+
+.contact-info {
+    display: inline;
+    font-family: sans-serif;
+    float: right;
+    margin: 10px;
+    border: #004C54 solid;
+}
+
+@media screen and (max-width: 900px) {
+    .card {
+        width: 100%;
+        min-width: none;
+    }
+
+    #avatar {
+        display: none;
+    }
 }
